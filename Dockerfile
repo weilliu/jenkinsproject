@@ -1,5 +1,7 @@
 FROM alpine:3.4
 
+this is a test line
+
 RUN apk --update add nginx php5-fpm && \
     mkdir -p /var/log/nginx && \
     touch /var/log/nginx/access.log && \
